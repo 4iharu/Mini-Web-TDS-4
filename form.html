@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pemesanan Tiket</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1>Pemesanan Tiket TDS4</h1></header>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="table.html">Jadwal</a>
+      <a href="form.html">Pemesanan</a>
+      <a href="iframe.html">Media</a>
+      <a href="profil.html">Member</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <main>
+      <form>
+        <h3>Pembelian di sini hanya untuk wilayah Indonesia!</h3>
+        <label>Nama Lengkap</label>
+        <input type="text" placeholder="Masukkan nama" required />
+
+        <label>Email</label>
+        <input type="email" placeholder="Masukkan email" required />
+
+        <label>Password</label>
+        <input type="password" placeholder="Buat password" />
+
+        <p><b>Tipe Tiket:</b></p>
+        <label
+          ><input type="radio" name="tiket" value="dreamzone" /> Dream Zone (Rp
+          3.500.000)</label
+        ><br />
+        <label
+          ><input type="radio" name="tiket" value="futurezone" /> Future Zone
+          (Rp 3.000.000)</label
+        ><br />
+        <label
+          ><input type="radio" name="tiket" value="cat1" /> CAT 1 (Rp
+          2.900.000)</label
+        ><br />
+        <label
+          ><input type="radio" name="tiket" value="cat2" /> CAT 2 (Rp
+          2.000.000)</label
+        ><br />
+        <label
+          ><input type="radio" name="tiket" value="cat3" /> CAT 3 (Rp
+          1.700.000)</label
+        ><br />
+        <label
+          ><input type="radio" name="tiket" value="cat4" /> CAT 4 (Rp
+          1.400.000)</label
+        ><br />
+
+        <p><b>Tambahan:</b></p>
+        <label
+          ><input type="checkbox" name="extra" value="makanminum" /> Makan &
+          Minum (Rp 20.000)</label
+        ><br />
+        <label
+          ><input type="checkbox" name="extra" value="merch" /> Merchandise (Rp
+          50.000)</label
+        ><br />
+
+        <label>Pilih Metode Pembayaran:</label><br />
+        <select name="payment">
+          <option value="transfer">Transfer Bank</option>
+          <option value="ewallet">E-Wallet (Dana, Gopay, OVO)</option></select
+        ><br /><br />
+
+        <button type="submit">Pesan Sekarang</button>
+      </form>
+    </main>
+  </body>
+</html>
